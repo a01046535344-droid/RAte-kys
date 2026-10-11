@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: basis-rates-news
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
